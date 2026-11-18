@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dst-test-vectors"
+version = "0.1.0"
+description = "DST test vectors for nonexistent (gap) and ambiguous (overlap) local times, with helpers to test your timezone code. Standard library only."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "Plainfold", email = "plainfoldhq@proton.me" }]
+keywords = ["dst", "daylight saving time", "timezone", "time zone", "tzdata", "zoneinfo", "test vectors", "ambiguous time", "nonexistent time", "testing"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Testing",
+]
+
+[project.optional-dependencies]
+tzdata = ["tzdata"]
+
+[project.urls]
+Homepage = "https://github.com/plainfoldhq/tz-transitions"
+"DST dates by country" = "https://plainfoldhq.github.io/dst-dates/"
+
+[project.scripts]
+dst-test-vectors = "dst_test_vectors:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dst_test_vectors = ["data/*.json"]

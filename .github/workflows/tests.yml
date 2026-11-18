@@ -1,0 +1,24 @@
+name: tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  vectors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      # Pin the tz database the vectors were built from (PyPI tzdata 2026.6 = IANA 2026f).
+      - run: python -m pip install tzdata==2026.6
+      - run: python -B -m unittest discover -s tests -v
+        env:
+          PYTHONTZPATH: ""
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node tests/check_vectors.mjs

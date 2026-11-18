@@ -1,0 +1,17 @@
+zone,countries,coordinates,comment,in_zone1970_tab,offset_at_start_s,dst_at_start_s,abbr_at_start,offset_2026_01_15_s,offset_2026_07_15_s,observes_dst_2026
+Africa/Cairo,EG,+3003+03115,,1,7200,0,EET,7200,10800,1
+America/Chicago,US,+415100-0873900,Central (most areas),1,-21600,0,CST,-21600,-18000,1
+America/Denver,US,+394421-1045903,Mountain (most areas),1,-25200,0,MST,-25200,-21600,1
+America/Havana,CU,+2308-08222,,1,-18000,0,CST,-18000,-14400,1
+America/Los_Angeles,US,+340308-1181434,Pacific,1,-28800,0,PST,-28800,-25200,1
+America/New_York,US,+404251-0740023,Eastern (most areas),1,-18000,0,EST,-18000,-14400,1
+America/Sao_Paulo,BR,-2332-04637,"Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)",1,-10800,0,-03,-10800,-10800,0
+Asia/Kolkata,IN,+2232+08822,,1,19800,0,IST,19800,19800,0
+Asia/Tehran,IR,+3540+05126,,1,12600,0,+0330,12600,12600,0
+Asia/Tokyo,"JP,AU",+353916+1394441,Eyre Bird Observatory,1,32400,0,JST,32400,32400,0
+Australia/Lord_Howe,AU,-3133+15905,Lord Howe Island,1,36000,0,AEST,39600,37800,1
+Australia/Sydney,AU,-3352+15113,New South Wales (most areas),1,36000,0,AEST,39600,36000,1
+Europe/Berlin,"DE,DK,NO,SE,SJ",+5230+01322,most of Germany,1,3600,0,CET,3600,7200,1
+Europe/London,"GB,GG,IM,JE",+513030-0000731,,1,3600,0,BST,0,3600,1
+Pacific/Auckland,"NZ,AQ",-3652+17446,New Zealand time,1,43200,0,NZST,46800,43200,1
+Pacific/Chatham,NZ,-4357-17633,Chatham Islands,1,45900,0,+1245,49500,45900,1

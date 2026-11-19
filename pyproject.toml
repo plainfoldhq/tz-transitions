@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dst-test-vectors"
-version = "0.1.0"
+version = "0.1.1"
 description = "DST test vectors for nonexistent (gap) and ambiguous (overlap) local times, with helpers to test your timezone code. Standard library only."
 readme = "README.md"
 license = "MIT"

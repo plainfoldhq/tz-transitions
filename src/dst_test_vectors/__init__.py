@@ -15,7 +15,7 @@ import json
 import os
 from datetime import datetime, timezone
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __all__ = ["Case", "cases", "load", "check", "params", "to_utc", "is_nonexistent", "is_ambiguous",
            "TZDATA_VERSION"]
 

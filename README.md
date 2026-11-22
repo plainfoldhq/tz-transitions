@@ -69,6 +69,7 @@ Also sold as part of the [calendar data bundle](https://buy.polar.sh/polar_cl_Hi
 ## Related
 - [plainfoldhq/date-dimension](https://github.com/plainfoldhq/date-dimension): date dimension table and 4-5-4 / 4-4-5 retail calendars.
 - [plainfoldhq/us-federal-calendar](https://github.com/plainfoldhq/us-federal-calendar): US federal holidays, NYSE trading days, Federal Reserve holidays.
+- [plainfoldhq/stock-exchange-holidays](https://github.com/plainfoldhq/stock-exchange-holidays): free CSV of holidays, early closes and trading hours for nine stock exchanges (NYSE, LSE, TSX, Xetra, Euronext, Tokyo, HKEX, ASX, SIX), 2026-2028.
 
 ## License
 Code: MIT. Data: CC0 1.0 (public domain). Questions: plainfoldhq@proton.me.

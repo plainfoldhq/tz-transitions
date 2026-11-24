@@ -70,7 +70,7 @@ Also sold as part of the [calendar data bundle](https://buy.polar.sh/polar_cl_Hi
 - [plainfoldhq/date-dimension](https://github.com/plainfoldhq/date-dimension): date dimension table and 4-5-4 / 4-4-5 retail calendars.
 - [plainfoldhq/us-federal-calendar](https://github.com/plainfoldhq/us-federal-calendar): US federal holidays, NYSE trading days, Federal Reserve holidays.
 - [plainfoldhq/stock-exchange-holidays](https://github.com/plainfoldhq/stock-exchange-holidays): free CSV of holidays, early closes and trading hours for nine stock exchanges (NYSE, LSE, TSX, Xetra, Euronext, Tokyo, HKEX, ASX, SIX), 2026-2028.
-- [plainfoldhq/world-public-holidays](https://github.com/plainfoldhq/world-public-holidays): free CSV of public holidays for 20 countries and regions, 2026-2028, cross-checked against two independent implementations.
+- [plainfoldhq/world-public-holidays](https://github.com/plainfoldhq/world-public-holidays): free CSV of public holidays for 26 countries and regions, 2026-2028, cross-checked against two independent implementations.
 - [plainfoldhq/fx-settlement-holidays](https://github.com/plainfoldhq/fx-settlement-holidays): FX settlement holidays (USD, EUR/TARGET2, GBP, JPY, AUD, NZD) and T+2 spot value dates, 2026-2028, checked against QuantLib.
 - All Plainfold data packs in one yearly plan: [All-Access](https://buy.polar.sh/polar_cl_xydfuofU72fdp6xSOHFtihAuniUFagYOwR9zf2M03Gl).
 

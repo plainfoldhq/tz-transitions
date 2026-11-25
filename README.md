@@ -54,13 +54,13 @@ Columns of the transitions table: `zone, utc, unix, local_before, local_after, o
 Find the offset in effect at an instant: take the zone's latest row with `utc <= t` and use `offset_after_s`; before the first row, use the zone's offset at 1970.
 
 ## Full set ($15, one-time)
-[Buy the full set on Polar](https://buy.polar.sh/polar_cl_IbPBiFVd3r1YmjO4XDcsCvCTG1DqmQIOPmld92JZG2z) (Polar is the merchant of record and handles sales tax). It contains:
+[Buy the full set on Polar](https://buy.polar.sh/polar_cl_IbPBiFVd3r1YmjO4XDcsCvCTG1DqmQIOPmld92JZG2z?utm_source=readme&utm_medium=readme&utm_campaign=D&utm_content=tz-transitions) (Polar is the merchant of record and handles sales tax). It contains:
 - all 21,026 transitions 1970-2050 (280 of the 344 canonical zones change in that span; the zones table lists all 344), as CSV, SQLite and Parquet; zones table; 253 links (aliases)
 - 51,404 DST test vectors for 2000-2050, every zone, tagged (`odd_offset`, `delta_30min`, `midnight`, `crosses_date`, ...)
 - PostgreSQL loader with a `tz_offset_s(zone, timestamptz)` function and a MySQL/MariaDB loader (both tested), SQL Server script
 - the generator, to rebuild from any newer tzdata, and the full test suite (every transition matches `zdump`)
 
-Also sold as part of the [calendar data bundle](https://buy.polar.sh/polar_cl_HiUeTqJE1gUqHdb3OlOWb6Jml7pdq8E71O2pA4Y9iQ3): this pack plus the other two Plainfold calendar data packs (business days, date dimension, time zone transitions) for $35 instead of $49.
+Also sold as part of the [calendar data bundle](https://buy.polar.sh/polar_cl_HiUeTqJE1gUqHdb3OlOWb6Jml7pdq8E71O2pA4Y9iQ3?utm_source=readme&utm_medium=readme&utm_campaign=BUNDLE&utm_content=tz-transitions): this pack plus the other two Plainfold calendar data packs (business days, date dimension, time zone transitions) for $35 instead of $49.
 
 ## Limits
 - Future rows follow rules announced as of the tzdata release; governments change rules several times a year.
@@ -72,7 +72,7 @@ Also sold as part of the [calendar data bundle](https://buy.polar.sh/polar_cl_Hi
 - [plainfoldhq/stock-exchange-holidays](https://github.com/plainfoldhq/stock-exchange-holidays): free CSV of holidays, early closes and trading hours for nine stock exchanges (NYSE, LSE, TSX, Xetra, Euronext, Tokyo, HKEX, ASX, SIX), 2026-2028.
 - [plainfoldhq/world-public-holidays](https://github.com/plainfoldhq/world-public-holidays): free CSV of public holidays for 26 countries and regions, 2026-2028, cross-checked against two independent implementations.
 - [plainfoldhq/fx-settlement-holidays](https://github.com/plainfoldhq/fx-settlement-holidays): FX settlement holidays (USD, EUR/TARGET2, GBP, JPY, AUD, NZD) and T+2 spot value dates, 2026-2028, checked against QuantLib.
-- All Plainfold data packs in one yearly plan: [All-Access](https://buy.polar.sh/polar_cl_xydfuofU72fdp6xSOHFtihAuniUFagYOwR9zf2M03Gl).
+- All Plainfold data packs in one yearly plan: [All-Access](https://buy.polar.sh/polar_cl_xydfuofU72fdp6xSOHFtihAuniUFagYOwR9zf2M03Gl?utm_source=readme&utm_medium=readme&utm_campaign=ALLACCESS&utm_content=tz-transitions).
 
 ## License
 Code: MIT. Data: CC0 1.0 (public domain). Questions: plainfoldhq@proton.me.

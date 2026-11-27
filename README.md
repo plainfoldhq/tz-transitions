@@ -73,6 +73,7 @@ Also sold as part of the [calendar data bundle](https://buy.polar.sh/polar_cl_Hi
 - [plainfoldhq/world-public-holidays](https://github.com/plainfoldhq/world-public-holidays): free CSV of public holidays for 26 countries and regions, 2026-2028, cross-checked against two independent implementations.
 - [plainfoldhq/fx-settlement-holidays](https://github.com/plainfoldhq/fx-settlement-holidays): FX settlement holidays (USD, EUR/TARGET2, GBP, JPY, AUD, NZD) and T+2 spot value dates, 2026-2028, checked against QuantLib.
 - All Plainfold data packs in one yearly plan: [All-Access](https://buy.polar.sh/polar_cl_xydfuofU72fdp6xSOHFtihAuniUFagYOwR9zf2M03Gl?utm_source=readme&utm_medium=readme&utm_campaign=ALLACCESS&utm_content=tz-transitions).
+- [plainfoldhq/pytest-dst-vectors](https://github.com/plainfoldhq/pytest-dst-vectors): free pytest plugin that runs your tests over these vectors (`@pytest.mark.dst_vectors(kind="gap")`, `dst_case`, `dst_check`; `--dst-vectors` for the full set); `pip install pytest-dst-vectors`.
 
 ## License
 Code: MIT. Data: CC0 1.0 (public domain). Questions: plainfoldhq@proton.me.

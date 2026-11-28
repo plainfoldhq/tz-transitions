@@ -47,4 +47,4 @@ for c in json.load(open("sample/dst_test_vectors_sample.json"))["cases"]:
 
 `tests/test_vectors.py` and `tests/check_vectors.mjs` (JavaScript `Intl`, no dependencies) run fuller checks. Results depend on your runtime's tz database version: an old one can disagree with newer rules.
 
-The sample covers 2026 in 5 zones. The full set has 51,404 cases for every zone, 2000-2050, plus the full transitions table with database loaders; see the README.
+The sample covers 2026 in 5 zones. The full set has 51,404 cases for every zone, 2000-2050, plus the full transitions table with database loaders; see the [README](../README.md). The [full set](https://buy.polar.sh/polar_cl_IbPBiFVd3r1YmjO4XDcsCvCTG1DqmQIOPmld92JZG2z?utm_source=github&utm_medium=readme&utm_campaign=D&utm_content=tz-transitions) is $15, one-time (Polar is the merchant of record and handles sales tax). It is also in the [calendar data bundle](https://buy.polar.sh/polar_cl_HiUeTqJE1gUqHdb3OlOWb6Jml7pdq8E71O2pA4Y9iQ3?utm_source=github&utm_medium=readme&utm_campaign=BUNDLE&utm_content=tz-transitions) (US business-day calendar, date dimension and time zone packs) for $35 instead of $49.

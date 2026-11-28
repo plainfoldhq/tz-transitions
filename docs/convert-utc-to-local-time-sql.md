@@ -65,4 +65,4 @@ FROM events e;
 ## Keeping it current
 Governments change rules several times a year, and the IANA database follows. Rebuild the table when a new tzdata release affects your zones.
 
-This repo has a free sample (16 zones, 2026-2030). The full set covers all 344 canonical zones and 253 aliases, 1970-2050, with tested PostgreSQL and MySQL/MariaDB loaders; see the README.
+This repo has a free sample (16 zones, 2026-2030). The full set covers all 344 canonical zones and 253 aliases, 1970-2050, with tested PostgreSQL and MySQL/MariaDB loaders; see the [README](../README.md). The [full set](https://buy.polar.sh/polar_cl_IbPBiFVd3r1YmjO4XDcsCvCTG1DqmQIOPmld92JZG2z?utm_source=github&utm_medium=readme&utm_campaign=D&utm_content=tz-transitions) is $15, one-time (Polar is the merchant of record and handles sales tax). It is also in the [calendar data bundle](https://buy.polar.sh/polar_cl_HiUeTqJE1gUqHdb3OlOWb6Jml7pdq8E71O2pA4Y9iQ3?utm_source=github&utm_medium=readme&utm_campaign=BUNDLE&utm_content=tz-transitions) (US business-day calendar, date dimension and time zone packs) for $35 instead of $49.
